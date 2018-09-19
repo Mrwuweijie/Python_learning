@@ -16,6 +16,9 @@ user_input_count    = 0
 
 print(" Welcome to xxx.com!\n")
 print(" Please enter your account password:\n")
+
+#Add read config file
+
 while user_input_count < MAX_input_count :
 
     input_account_name = str(input("Input your account name: "))

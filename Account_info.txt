@@ -1,2 +1,2 @@
-account_name =$Henry$
-account_key = $123456$
+account_name =$Henry$\n
+account_key = $123456$\n

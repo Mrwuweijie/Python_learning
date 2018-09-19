@@ -19,6 +19,11 @@ print(" Please enter your account password:\n")
 
 #Add read config file
 
+p_account_info = open('D:\\Relevant_doc\\Python\\Python_learning\\Account_info.txt', 'r+')
+for info in p_account_info:
+    print(info)
+p_account_info.close()
+
 while user_input_count < MAX_input_count :
 
     input_account_name = str(input("Input your account name: "))
